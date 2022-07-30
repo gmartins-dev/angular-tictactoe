@@ -20,8 +20,10 @@ main{
 }
 
 app-board{
-  border: 1px solid #f1f1f1;
+  border: 1px solid #181818;
   height: 200px;
+  cursor: pointer;
+  background-color: #f1f1f1;
 }
 
 h1{
