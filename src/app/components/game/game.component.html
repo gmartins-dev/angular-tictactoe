@@ -1,1 +1,13 @@
-<p>game works!</p>
+<div class="outer-cont">
+  <h2>Let´s play Tic-Tac-Toe</h2>
+  <h1>Current Player: {{player}}</h1>
+  <h2>Player {{winner}} won!</h2>
+  <h2>Draw!</h2>
+  <button>Start Game</button>
+
+  <main>
+    <app-board *ngFor="let item of squares; let i = index" [value]="item"
+    (click)="makeMove(i)"></app-board>
+  </main>
+
+</div>
